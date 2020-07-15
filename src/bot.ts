@@ -114,6 +114,9 @@ export class Bot {
       method: 'post',
       url: this.buildUrl(),
       data: msg,
+      headers: {
+        'content-type': 'application/json',
+      },
     })
 
     return data
