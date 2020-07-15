@@ -101,7 +101,7 @@ export class Bot {
     return data.media_id
   }
 
-  async send(msg: Msg) {
+  async send(msg: Msg | string) {
     const data = await this.rawSend(msg)
 
     if (data.errcode !== 0) {
@@ -109,7 +109,7 @@ export class Bot {
     }
   }
 
-  async rawSend(msg: Msg) {
+  async rawSend(msg: Msg | string) {
     const { data } = await axios.request<Resp>({
       method: 'post',
       url: this.buildUrl(),
