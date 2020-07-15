@@ -17,6 +17,6 @@ export const fileSize = async (path: string) => {
 export const ensureFileSizeLess = async (path: string, maxSize: number) => {
   const size = await fileSize(path)
   if (size > maxSize) {
-    throw new Error(`file size should less than ${maxSize}`)
+    throw new Error(`file size ${size} should less than ${maxSize}`)
   }
 }

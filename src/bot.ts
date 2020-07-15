@@ -45,7 +45,7 @@ export class Bot {
 
   async sendImageFile(filePath: string) {
     // 2M max
-    await ensureFileSizeLess(filePath, 2 << 1024)
+    await ensureFileSizeLess(filePath, 2 << 20)
     const f = await fs.readFile(filePath)
     const msg: ImageMsg = {
       msgtype: 'image',
@@ -54,6 +54,7 @@ export class Bot {
         base64: toBase64(f),
       },
     }
+    console.log(JSON.stringify(msg))
     return this.sendImageMsg(msg)
   }
 
@@ -71,7 +72,7 @@ export class Bot {
 
   async uploadMedia(filePath: string, filename?: string) {
     // 20M max
-    await ensureFileSizeLess(filePath, 20 << 10)
+    await ensureFileSizeLess(filePath, 20 << 20)
     const form = new FormData()
     const f = createReadStream(filePath)
     let name: string
