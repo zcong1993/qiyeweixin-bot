@@ -9,7 +9,7 @@ specifiers:
   eslint: ^7.3.0
   eslint-config-prettier: ^8.0.0
   eslint-plugin-import: ^2.21.2
-  form-data: ^3.0.0
+  form-data: ^4.0.0
   husky: ^7.0.0
   jest: ^26.0.1
   lint-staged: ^10.2.11
@@ -19,7 +19,7 @@ specifiers:
 
 dependencies:
   axios: 0.21.1
-  form-data: 3.0.0
+  form-data: 4.0.0
 
 devDependencies:
   '@types/jest': 26.0.0
@@ -872,7 +872,7 @@ packages:
     dev: true
 
   /asynckit/0.4.0:
-    resolution: {integrity: sha1-x57Zf380y48robyXkLzDZkdLS3k=, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.com/asynckit/-/asynckit-0.4.0.tgz}
+    resolution: {integrity: sha1-x57Zf380y48robyXkLzDZkdLS3k=}
 
   /atob/2.1.2:
     resolution: {integrity: sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.com/atob/-/atob-2.1.2.tgz}
@@ -1189,7 +1189,7 @@ packages:
     dev: true
 
   /combined-stream/1.0.8:
-    resolution: {integrity: sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.com/combined-stream/-/combined-stream-1.0.8.tgz}
+    resolution: {integrity: sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==}
     engines: {node: '>= 0.8'}
     dependencies:
       delayed-stream: 1.0.0
@@ -1358,7 +1358,7 @@ packages:
     dev: true
 
   /delayed-stream/1.0.0:
-    resolution: {integrity: sha1-3zrhmayt+31ECqrgsp4icrJOxhk=, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.com/delayed-stream/-/delayed-stream-1.0.0.tgz}
+    resolution: {integrity: sha1-3zrhmayt+31ECqrgsp4icrJOxhk=}
     engines: {node: '>=0.4.0'}
 
   /detect-newline/3.1.0:
@@ -1839,8 +1839,8 @@ packages:
       mime-types: 2.1.27
     dev: true
 
-  /form-data/3.0.0:
-    resolution: {integrity: sha512-CKMFDglpbMi6PyN+brwB9Q/GOw0eAnsrEZDgcsH5Krhz5Od/haKHAX0NmQfha2zPPz0JpWzA7GJHGSnvCRLWsg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.com/form-data/-/form-data-3.0.0.tgz}
+  /form-data/4.0.0:
+    resolution: {integrity: sha512-ETEklSGi5t0QMZuiXoA/Q6vcnxcLQP5vdugSpuAyi6SVGi2clPPp+xgEhuMaHC+zGgn31Kd235W35f7Hykkaww==}
     engines: {node: '>= 6'}
     dependencies:
       asynckit: 0.4.0
@@ -3100,11 +3100,11 @@ packages:
     dev: true
 
   /mime-db/1.44.0:
-    resolution: {integrity: sha512-/NOTfLrsPBVeH7YtFPgsVWveuL+4SjjYxaQ1xtM1KMFj7HdxlBlxeyNLzhyJVx7r4rZGJAZ/6lkKCitSc/Nmpg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.com/mime-db/-/mime-db-1.44.0.tgz}
+    resolution: {integrity: sha512-/NOTfLrsPBVeH7YtFPgsVWveuL+4SjjYxaQ1xtM1KMFj7HdxlBlxeyNLzhyJVx7r4rZGJAZ/6lkKCitSc/Nmpg==}
     engines: {node: '>= 0.6'}
 
   /mime-types/2.1.27:
-    resolution: {integrity: sha512-JIhqnCasI9yD+SsmkquHBxTSEuZdQX5BuQnS2Vc7puQQQ+8yiP5AY5uWhpdv4YL4VM5c6iliiYWPgJ/nJQLp7w==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.com/mime-types/-/mime-types-2.1.27.tgz}
+    resolution: {integrity: sha512-JIhqnCasI9yD+SsmkquHBxTSEuZdQX5BuQnS2Vc7puQQQ+8yiP5AY5uWhpdv4YL4VM5c6iliiYWPgJ/nJQLp7w==}
     engines: {node: '>= 0.6'}
     dependencies:
       mime-db: 1.44.0
