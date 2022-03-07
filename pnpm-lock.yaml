@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@types/jest': ^26.0.0
-  '@types/node': ^14.0.13
+  '@types/node': ^16.0.0
   '@typescript-eslint/eslint-plugin': ^3.3.0
   '@typescript-eslint/parser': ^3.3.0
   axios: ^0.21.0
@@ -23,7 +23,7 @@ dependencies:
 
 devDependencies:
   '@types/jest': 26.0.0
-  '@types/node': 14.0.13
+  '@types/node': 16.11.26
   '@typescript-eslint/eslint-plugin': 3.3.0_1e9baba6409997b887cde21291c84ed3
   '@typescript-eslint/parser': 3.3.0_eslint@7.3.0+typescript@4.0.2
   eslint: 7.3.0
@@ -565,7 +565,7 @@ packages:
   /@types/graceful-fs/4.1.3:
     resolution: {integrity: sha512-AiHRaEB50LQg0pZmm659vNBb9f4SJ0qrAnteuzhSeAUcJKxoYgEnprg/83kppCnc2zvtCKbdZry1a5pVY3lOTQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.com/@types/graceful-fs/-/graceful-fs-4.1.3.tgz}
     dependencies:
-      '@types/node': 14.0.13
+      '@types/node': 16.11.26
     dev: true
 
   /@types/istanbul-lib-coverage/2.0.3:
@@ -600,8 +600,8 @@ packages:
     resolution: {integrity: sha1-7ihweulOEdK4J7y+UnC86n8+ce4=, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.com/@types/json5/-/json5-0.0.29.tgz}
     dev: true
 
-  /@types/node/14.0.13:
-    resolution: {integrity: sha512-rouEWBImiRaSJsVA+ITTFM6ZxibuAlTuNOCyxVbwreu6k6+ujs7DfnU9o+PShFhET78pMBl3eH+AGSI5eOTkPA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.com/@types/node/-/node-14.0.13.tgz}
+  /@types/node/16.11.26:
+    resolution: {integrity: sha512-GZ7bu5A6+4DtG7q9GsoHXy3ALcgeIHP4NnL0Vv2wu0uUB/yQex26v0tf6/na1mm0+bS9Uw+0DFex7aaKr2qawQ==}
     dev: true
 
   /@types/normalize-package-data/2.4.0:
@@ -1860,9 +1860,11 @@ packages:
     dev: true
 
   /fsevents/2.1.3:
-    resolution: {integrity: sha512-Auw9a4AxqWpa9GUfj370BMPzzyncfBABW8Mab7BGWBYDj4Isgq+cDKtx0i6u9jcX9pQDnswsaaOTgTmA5pEjuQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.com/fsevents/-/fsevents-2.1.3.tgz}
+    resolution: {integrity: sha512-Auw9a4AxqWpa9GUfj370BMPzzyncfBABW8Mab7BGWBYDj4Isgq+cDKtx0i6u9jcX9pQDnswsaaOTgTmA5pEjuQ==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
+    deprecated: '"Please update to latest v2.3 or v2.2"'
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -3188,7 +3190,8 @@ packages:
     dev: true
 
   /node-notifier/7.0.1:
-    resolution: {integrity: sha512-VkzhierE7DBmQEElhTGJIoiZa1oqRijOtgOlsXg32KrJRXsPy0NXFBqWGW/wTswnJlDCs5viRYaqWguqzsKcmg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.com/node-notifier/-/node-notifier-7.0.1.tgz}
+    resolution: {integrity: sha512-VkzhierE7DBmQEElhTGJIoiZa1oqRijOtgOlsXg32KrJRXsPy0NXFBqWGW/wTswnJlDCs5viRYaqWguqzsKcmg==}
+    requiresBuild: true
     dependencies:
       growly: 1.3.0
       is-wsl: 2.2.0
